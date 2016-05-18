@@ -2,3 +2,94 @@ img {
 	background-size: cover;
 	background-position: center;
 }
+body {
+	background-color: lightgrey;
+	text-align:center;
+}
+
+#webseite{
+	width: 1584px;
+}
+
+#header{
+	width: 1574px;
+	height: 140px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: <img src="header.jpg">;
+}
+
+#header h1 {
+	padding-top: 40px;
+	font-size: 50px;
+	font-weight: bold;
+	color: black;
+	font-family: Arial;
+}
+
+#main{
+	width: 1584px;
+}
+
+#menue {
+	float: left;
+	width: 200px;
+	height: 590px;
+	background-color: #2eaae8;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-o-border-radius: 8px;
+}
+
+#menue a{
+	width: 120px;
+	float: left;
+	margin-top: 5px;
+	font-family: arial;
+}
+
+#menue ul{
+	list-style-type: none;
+}
+
+a {
+margin-left: 4px;
+margin-top: 5px;
+mask-type: 
+}
+
+#links{
+	font-family: arial;
+}
+
+#inhalt {
+	float: left;
+	width: 1374px;
+	height: 300px;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	background-color: #2eaae8;
+
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-o-border-radius: 8px;
+}
+
+#banane {
+	float: right;
+	width: 200px;
+	height: 590px;
+	background-color: #2eaae8;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-o-border-radius: 8px;
+}
