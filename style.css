@@ -67,13 +67,15 @@ mask-type:
 
 #inhalt {
 	float: left;
-	width: 1374px;
+	width: 1143px;
 	height: 300px;
+	
 	margin-left: 10px;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	
-	background-color: #2eaae8;
+	margin-right: 10px;
+
+	background-color: grey;
 
 	border-radius: 8px;
 	-moz-border-radius: 8px;
