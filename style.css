@@ -13,10 +13,14 @@ body {
 
 #header{
 	width: 1574px;
-	height: 140px;
+	height: 20px;
+	
 	margin-right: auto;
 	margin-left: auto;
+	margin-bottom: 15px;
+
 	background-image: <img src="header.jpg">;
+
 }
 
 #header h1 {
@@ -31,7 +35,7 @@ body {
 	width: 1584px;
 }
 
-#menue {
+#linksmenue {
 	float: left;
 	width: 200px;
 	height: 590px;
@@ -44,14 +48,15 @@ body {
 	-o-border-radius: 8px;
 }
 
-#menue a{
+#linksmenue a{
 	width: 120px;
 	float: left;
-	margin-top: 5px;
+	margin-top: 20px;
 	font-family: arial;
+
 }
 
-#menue ul{
+#linksmenue ul{
 	list-style-type: none;
 }
 
@@ -68,7 +73,7 @@ mask-type:
 #inhalt {
 	float: left;
 	width: 1143px;
-	height: 300px;
+	height: 590px;
 	
 	margin-left: 10px;
 	margin-top: 10px;
@@ -83,7 +88,7 @@ mask-type:
 	-o-border-radius: 8px;
 }
 
-#banane {
+#rechtsmenue {
 	float: right;
 	width: 200px;
 	height: 590px;
