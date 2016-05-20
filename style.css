@@ -7,28 +7,13 @@ body {
 	text-align:center;
 }
 
-#webseite{
-	width: 1584px;
-}
-
 #header{
+	background-color:white;
 	width: 1574px;
 	height: 140px;
 	margin-right: auto;
 	margin-left: auto;
-	background-image: <img src="header.jpg">;
-}
-
-#header h1 {
-	padding-top: 40px;
-	font-size: 50px;
-	font-weight: bold;
-	color: black;
-	font-family: Arial;
-}
-
-#main{
-	width: 1584px;
+	background-image: ;
 }
 
 #menue {
@@ -44,21 +29,13 @@ body {
 	-o-border-radius: 8px;
 }
 
-#menue a{
-	width: 120px;
-	float: left;
-	margin-top: 5px;
-	font-family: arial;
-}
-
 #menue ul{
 	list-style-type: none;
 }
 
 a {
-margin-left: 4px;
-margin-top: 5px;
-mask-type: 
+	margin-left: 4px;
+	margin-top: 5px;
 }
 
 #links{
