@@ -21,18 +21,6 @@ body {
 
 }
 
-#header h1 {
-	padding-top: 40px;
-	font-size: 50px;
-	font-weight: bold;
-	color: black;
-	font-family: Arial;
-}
-
-#main{
-	width: 1584px;
-}
-
 #linksmenue {
 	float: left;
 	width: 200px;
@@ -90,10 +78,17 @@ a {
 	width: 200px;
 	height: 590px;
 	background-color: #2eaae8;
+	
 	margin-top: 10px;
 	margin-bottom: 10px;
+	
 	border-radius: 8px;
 	-moz-border-radius: 8px;
 	-webkit-border-radius: 8px;
 	-o-border-radius: 8px;
+}
+
+#beschreibung {
+	font-family: arial;
+	font-size: 15px;
 }
