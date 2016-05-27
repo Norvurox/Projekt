@@ -38,7 +38,7 @@ body {
 	width: 120px;
 	float: left;
 	margin-top: 20px;
-	font-family: arial;
+	font-family: helvetica;
 
 }
 
@@ -52,7 +52,7 @@ a {
 }
 
 #links{
-	font-family: arial;
+	font-family: helvetica;
 }
 
 #inhalt {
@@ -89,6 +89,19 @@ a {
 }
 
 #beschreibung {
-	font-family: arial;
+	margin-top: 25px;
+	font-family: helvetica;
+	font-size: 15px;
+}
+
+#skinstext {
+	margin-top: 25px;
+	font-family: helvetica;
+	font-size: 15px;
+}
+
+#hometext {
+	margin-top: 25px;
+	font-family: helvetica;
 	font-size: 15px;
 }
