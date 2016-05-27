@@ -7,10 +7,6 @@ body {
 	text-align:center;
 }
 
-#webseite{
-	width: 1584px;
-}
-
 #header{
 	width: 1574px;
 	height: 20px;
@@ -21,18 +17,6 @@ body {
 
 	background-image: <img src="header.jpg">;
 
-}
-
-#header h1 {
-	padding-top: 40px;
-	font-size: 50px;
-	font-weight: bold;
-	color: black;
-	font-family: Arial;
-}
-
-#main{
-	width: 1584px;
 }
 
 #linksmenue {
@@ -63,7 +47,6 @@ body {
 a {
 margin-left: 4px;
 margin-top: 5px;
-mask-type: 
 }
 
 #links{
@@ -93,10 +76,17 @@ mask-type:
 	width: 200px;
 	height: 590px;
 	background-color: #2eaae8;
+	
 	margin-top: 10px;
 	margin-bottom: 10px;
+	
 	border-radius: 8px;
 	-moz-border-radius: 8px;
 	-webkit-border-radius: 8px;
 	-o-border-radius: 8px;
+}
+
+#beschreibung {
+	font-family: arial;
+	font-size: 15px;
 }
