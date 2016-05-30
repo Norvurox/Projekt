@@ -14,7 +14,7 @@ body {
 
 	background-image: url(header.jpg);
 	width: auto;
-	height: 310px;
+	height: 365px;
 	background-size: cover;
 	object-fit: contain;
 
@@ -27,7 +27,7 @@ body {
 #linksmenue {
 	float: left;
 	width: 200px;
-	height: 680px;
+	height: 950px;
 	background-color: #2eaae8;
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -40,9 +40,12 @@ body {
 #linksmenue li a{
 	display: block;
 	color: #000;
-	padding: 8px 0 8px 16px;
+	padding: 35px 0 35px 45px;
 	text-decoration: none;
 	font-weight: bold;
+	margin-left: auto;
+	margin-right: auto;
+	width: 6em;
 }
 
 li {
@@ -67,8 +70,8 @@ li {
 
 #inhalt {
 	float: left;
-	width: 1143px;
-	height: 680px;
+	width: 1463px;
+	height: 950px;
 	
 	margin-left: 10px;
 	margin-top: 10px;
@@ -86,12 +89,10 @@ li {
 #rechtsmenue {
 	float: right;
 	width: 200px;
-	height: 680px;
+	height: 950px;
 	background-color: #2eaae8;
-	
 	margin-top: 10px;
 	margin-bottom: 10px;
-	
 	border-radius: 8px;
 	-moz-border-radius: 8px;
 	-webkit-border-radius: 8px;
@@ -106,36 +107,24 @@ li {
 }
 
 #video {
-	margin-top: 10px;
+	margin-top: 40px;
+
 }
 
 
-.skinbilder img {
+.bilder img {
 	margin-top: 30px;
-	width: 150px;
-	height: 150px;
+	width: 250px;
+	height: 250px;
 	float: left;
+	margin: auto;
 
 }
 
-.skinbilder {
+
+
+.moneybilder img {
 	margin-top: 30px;
-
+	width: auto;
+	height: 600px;
 }
-
-ul.bilder {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-li {
-    float: left;
-}
-
-ul > li > a > img {
-	margin-top: 30px;
-	width: 150px;
-	height: 150px;
-	float: left;
