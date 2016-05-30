@@ -32,7 +32,7 @@ body {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	border-radius: 8px;
-	-moz-border-radius: 8px;
+	-moz-border-radius: 8px;	
 	-webkit-border-radius: 8px;
 	-o-border-radius: 8px;
 }
@@ -100,4 +100,35 @@ a {
 
 #video {
 	margin-top: 10px;
+}
+
+.skinbilder img {
+	margin-top: 30px;
+	width: 150px;
+	height: 150px;
+	float: left;
+
+}
+
+.skinbilder {
+	margin-top: 30px;
+
+}
+
+ul.bilder {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+ul > li > a > img {
+	margin-top: 30px;
+	width: 150px;
+	height: 150px;
+	float: left;
 }
