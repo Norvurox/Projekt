@@ -1,138 +1,156 @@
 img {
-	background-size: cover;
-	background-position: center;
-	border-radius: 8px;
+ background-size: cover;
+ background-position: center;
+ border-radius: 8px;
 }
 body {
-	background-color: lightgrey;
-	text-align:center;
+ background-color: lightgrey;
+ text-align:center;
 }
 
 
 
 #header{
+ background-image: url(header.jpg);
+ width: auto;
+ height: 365px;
+ background-size: cover;
+ object-fit: contain;
 
-	background-image: url(header.jpg);
-	width: auto;
-	height: 365px;
-	background-size: cover;
-	object-fit: contain;
-
-	border-radius: 8px;	
-	margin-right: auto;
-	margin-left: auto;
+ border-radius: 8px; 
+ margin-right: auto;
+ margin-left: auto;
 
 }
 
 #linksmenue {
-	float: left;
-	width: 200px;
-	height: 1050px;
-	background-color: #2eaae8;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	border-radius: 8px;
-	-moz-border-radius: 8px;	
-	-webkit-border-radius: 8px;
-	-o-border-radius: 8px;
+ width: 200px;
+ height: 1050px;
+ background-color: #2eaae8;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ border-radius: 8px;
+ text-align: center;
+
 }
 
-#linksmenue li a{
-	display: block;
-	color: #000;
-	padding: 35px 0 35px 48px;
-	text-decoration: none;
-	font-weight: bold;
-	margin-left: auto;
-	margin-right: auto;
-	width: 6em;
+#linksmenue li a {
+ color: #000;
+ border: 2px solid black;
+ text-decoration: none;
+ background-color: lightblue;
+ margin-left: auto;
+ margin-right: auto;
+ width: 190px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ text-align: center;
 }
 
 li {
-	list-style-type: none;
+ list-style-type: none;
 }
 
-#linksmenue li a:hover{
-	background: #2eaae8;
-	color: black;
-	font-family: helvetica;
+li a:hover{
+ background: #2eaae8;
+ color: black;
+ font-family: helvetica;
 }
 
 #linksmenue a {
-	float: left;
-	margin-right: 5px;
-	margin-top: 5px;
+ float: left;
+ margin-right: 5px;
+ margin-top: 5px;
 }
 
 #links{
-	font-family: helvetica;
+ font-family: helvetica;
 }
 
 #inhalt {
-	float: left;
-	width: 1463px;
-	height: 1050px;
-	
-	margin-left: 10px;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-right: 10px;
+ float: left;
+ width: 1463px;
+ height: 1050px;
+ 
+ margin-left: 10px;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ margin-right: 10px;
 
-	background-color: grey;
+ background-color: grey;
 
-	border-radius: 8px;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
-	-o-border-radius: 8px;
+ border-radius: 8px;
+ -moz-border-radius: 8px;
+ -webkit-border-radius: 8px;
+ -o-border-radius: 8px;
 }
 
 #rechtsmenue {
-	float: right;
-	width: 200px;
-	height: 1050px;
-	background-color: #2eaae8;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	border-radius: 8px;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
-	-o-border-radius: 8px;
+ float: right;
+ width: 200px;
+ height: 1050px;
+ background-color: #2eaae8;
+ margin-top: 10px;
+ margin-bottom: 10px;
+ border-radius: 8px;
+ -moz-border-radius: 8px;
+ -webkit-border-radius: 8px;
+ -o-border-radius: 8px;
 }
 
 #content {
-	margin-top: 25px;
-	font-family: helvetica;
-	font-size: 15px;
-	padding: 25px;
+ margin-top: 25px;
+ font-family: helvetica;
+ font-size: 15px;
+ padding: 25px;
 }
 
 #video {
-	margin-top: 40px;
+ margin-top: 40px;
 
 }
 
 
 .bilder img {
-	margin-top: 30px;
-	width: 250px;
-	height: 250px;
-	float: left;
+ margin-top: 30px;
+ width: 250px;
+ height: 250px;
+ float: left;
 
 }
 
 
 
 .moneybilder img {
-	margin-top: 30px;
-	width: auto;
-	height: 600px;
+ margin-top: 30px;
+ width: auto;
+ height: 600px;
 }
 
 #counterbild img {
-	margin-top: 100px;
-	
+ margin-top: 100px;
+ 
 }
 
 #terrorbild img {
-	margin-top: 130px;
+ margin-top: 130px;
+}img {
+ background-size: cover;
+ background-position: center;
+ border-radius: 8px;
+}
+body {
+ background-color: lightgrey;
+ text-align:center;
+}
+
+
+
+.mapbilder img {
+	margin-top: 100px;
+	width: 350px;
+	height: 300px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 100px;
 }
