@@ -1,35 +1,38 @@
 img {
 	background-size: cover;
 	background-position: center;
+	border-radius: 8px;
 }
 body {
 	background-color: lightgrey;
 	text-align:center;
 }
 
+
+
 #header{
-	background-color: lightgrey;
-	width: 1574px;
-	height: 20px;
-	
+
+	background-image: url(header.jpg);
+	width: auto;
+	height: 310px;
+	background-size: cover;
+	object-fit: contain;
+
+	border-radius: 8px;	
 	margin-right: auto;
 	margin-left: auto;
-
-	margin-bottom: 15px;
-
-	background-image: <img src="header.jpg">;
 
 }
 
 #linksmenue {
 	float: left;
 	width: 200px;
-	height: 590px;
+	height: 680px;
 	background-color: #2eaae8;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	border-radius: 8px;
-	-moz-border-radius: 8px;
+	-moz-border-radius: 8px;	
 	-webkit-border-radius: 8px;
 	-o-border-radius: 8px;
 }
@@ -47,8 +50,9 @@ li {
 }
 
 #linksmenue li a:hover{
-	background: #555;
-	color: #00FFFF;
+	background: #2eaae8;
+	color: black;
+	font-family: helvetica;
 }
 
 #linksmenue a {
@@ -64,7 +68,7 @@ li {
 #inhalt {
 	float: left;
 	width: 1143px;
-	height: 590px;
+	height: 680px;
 	
 	margin-left: 10px;
 	margin-top: 10px;
@@ -82,7 +86,7 @@ li {
 #rechtsmenue {
 	float: right;
 	width: 200px;
-	height: 590px;
+	height: 680px;
 	background-color: #2eaae8;
 	
 	margin-top: 10px;
@@ -94,24 +98,44 @@ li {
 	-o-border-radius: 8px;
 }
 
-#beschreibung {
+#content {
 	margin-top: 25px;
 	font-family: helvetica;
 	font-size: 15px;
-}
-
-#skinstext {
-	margin-top: 25px;
-	font-family: helvetica;
-	font-size: 15px;
-}
-
-#hometext {
-	margin-top: 25px;
-	font-family: helvetica;
-	font-size: 15px;
+	padding: 25px;
 }
 
 #video {
-	margin-top: 15px;
+	margin-top: 10px;
 }
+
+
+.skinbilder img {
+	margin-top: 30px;
+	width: 150px;
+	height: 150px;
+	float: left;
+
+}
+
+.skinbilder {
+	margin-top: 30px;
+
+}
+
+ul.bilder {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+ul > li > a > img {
+	margin-top: 30px;
+	width: 150px;
+	height: 150px;
+	float: left;
