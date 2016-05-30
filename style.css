@@ -98,9 +98,16 @@ a {
 	padding: 25px;
 }
 
+#moneytext {
+	margin-top: 25px;
+	font-family: helvetica;
+	font-size: 15px;
+}
+
 #video {
 	margin-top: 10px;
 }
+
 
 .skinbilder img {
 	margin-top: 30px;
@@ -131,4 +138,3 @@ ul > li > a > img {
 	width: 150px;
 	height: 150px;
 	float: left;
-}
